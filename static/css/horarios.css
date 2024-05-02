@@ -73,15 +73,13 @@ main{
     margin-top: 100px;
 }
 .titulo{
-    background-color: #111111;
-    border-radius: 5%;
     display: inline-flex;
     margin-left: 720px;
     position: relative;
-    margin-top: 60px;
+    margin-top: 20px;
     font-family: "trush";
-    font-size: 25px;
-    color: #ecb94c;
+    font-size: 30px;
+    color: #e6ab2b;
     padding: 10px;
 
 
