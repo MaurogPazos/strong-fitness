@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../static/img/logo_color.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../static/css/footer.css">
+    <link rel="stylesheet" href="../static/css/registrate.css">
+    <link rel="stylesheet" href="../static/css/index.css">
+    <title>strong-fitness</title>
+</head>
+<body>
+    <header>
+        <nav class="navegadores">
+            <div class="navegadores" >
+                <img src="../static/img/logo_color.png" alt="logo_header" id="logo_header">
+            </div>
+        <a class="botones_nav" href="../index.html">Inicio</a>
+        
+        <a class="botones_nav" href="nosotros.html">¿Quienes somos?</a>
+        
+        <a class="botones_nav" href="actividades.html">Actividades</a>
+        
+        <a class="botones_nav" href="horarios.html">Horarios</a>
+        
+        <a class="botones_nav" href="contactanos.html">Contactanos</a>
+    </nav>
+    </header>
+    
+    <main>
+        <div class="div1">
+            <h1>Forma parte de nuestro equipo</h1>
+
+            <h5>Formulario de Registro</h5>
+        </div> 
+       
+        <div class="formulario">
+        <!-- Comentado el formspree porque se valida con Javascript -->
+        <!-- <form action="https://formspree.io/f/xzbnykdz"
+              method="POST"> -->
+             <form onsubmit="return validarFormulario()">
+                <div>
+                    <label for="nombre">Ingresá tu nombre: </label>
+                    <input type="text" name="nombre" id="nombre">
+                </div>
+                <br><div>
+                    <label for="apellido">Ingresá tu apellido: </label>
+                    <input type="text" name="apellido" id="apellido">
+                </div>
+                <br><div>
+                    <label for="fn">Ingresá tu fecha de Nacimiento: </label>
+                    <input type="date" name="fn" id="fn">
+                    
+                </div>
+                <br><div>
+                    <label for="correo">Ingresá tu correo electrónico: </label>
+                    <input type="email" name="correo" id="correo" required>
+                </div>
+                <br>
+                <div>
+                    <h3>Actividad que quieras realizar :</h3>
+                    <div>
+                        <input type="radio" name="actividad" id="crossfit">
+                        <label for="crossfit">Crossfit</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="actividad" id="musculacion">
+                        <label for="musculacion">Musculación</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="actividad" id="funcional">
+                        <label for="funcional">Entrenamiento Funcional</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="actividad" id="gap">
+                        <label for="gap">G.A.P.</label>
+                    </div>
+                    <div>   
+                        <input type="radio" name="actividad" id="spinning">
+                        <label for="spinning">Spinning</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="actividad" id="ritmos">
+                        <label for="ritmos">Ritmos</label>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="turno">Turno deseado: </label>
+                        <select name="turno" id="turno" required>
+                            <option value="">-</option>
+                            <option value="mañana">Mañana</option>
+                            <option value="tarde">Tarde</option>
+                            <option value="noche">Noche</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="apto">Deberás subir tu apto físico:</label>
+                        <input type="file" name="apto" id="apto" required>
+                    </div>
+                    <br>
+                    <div>
+                        <input class="botonsubmit" type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">
+                    </div>
+                    <div id="campos"></div>
+                </div>
+
+            </form>  
+        </div>
+        </main>
+
+    <footer>
+    <div>
+        <img src="../static/img/logo_blanco.png" alt="logo_pie" id="logo_pie">
+    </div>
+    <div>
+        <h2>Seguinos</h2>
+        
+        <a href="https://www.facebook.com/?locale=es_LA" target="_blank" class="botones_redes"><img id="face" src="../static/img/facebook.png" alt="face"></a>
+        
+        <a href="https://www.instagram.com/" target="_blank" class="botones_redes"> <img id="insta" src="../static/img/instagram.png" alt="insta"></a>
+        
+        <a href="https://google.com.ar" target="_blank" class="botones_redes"> <img id="yout" src="../static/img/youtube.png" alt="yout"></a>
+        
+        <a href="https://www.youtube.com/" target="_blank" class="botones_redes"> <img id="whats" src="../static/img/whatsapp.png" alt="whats"></a>
+        
+        <a href="#" id="botonDesarrolladores">Desarrolladores</a><span>&copy;</span>
+    </div>
+    </footer>
+    <script src="../static/js/validarFormulario.js"> </script>
+    <script>
+        document.getElementById("botonDesarrolladores").addEventListener("click", function() {
+
+        alert("Mauro Pazos, Rosneli Morales Natera");
+        });
+    </script>
+</body>
+</html>

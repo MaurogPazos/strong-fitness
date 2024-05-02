@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "bonfire";
+    src: url(../../assets/fonts/Bonfire.ttf)
+}
+@font-face {
+    font-family: "trush";
+    src: url(../../assets/fonts/Trushdex.ttf)
+}
+@font-face {
+    font-family: "zeta";
+    src: url(../../assets/fonts/ZTGatha-SemiBold.ttf)
+}
+    .div1{
+    display: grid;
+    grid-template-columns: 1, 20px;
+    grid-template-rows: 2, 20px;
+    row-gap: 3px;
+    justify-content: center;
+    font-family: "trush";
+    font-size: 30px;
+    color: bisque;
+    border: 2px;
+    border-color: black;
+}
+form{
+    margin-top: 30px;
+    font-family: "zeta";
+    font-size: 20px;
+    padding: 40px;
+}
+
+
+main{
+    background-image: url(../img/woman-holding-weights-near-barbells.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.formulario{
+    display: flexbox;
+    justify-content: center;
+    margin-left: 650px;
+    width: 600px;
+    background-color: antiquewhite;
+    opacity: 70%;
+    border-radius: 10%;
+}
+h5{
+    text-align: center;
+    font-size: 25px;
+    
+}
+input[type="submit"] {
+    padding: 10px;
+    background-color: #ecb94c;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+input[type="reset"] {
+    padding: 10px;
+    background-color: #ecb94c;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="reset"]:hover {
+    background-color: #0056b3;
+}
+input[type="file"] {
+    padding: 10px;
+    background-color: #ecb94c;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="file"]:hover {
+    background-color: #0056b3;
+}

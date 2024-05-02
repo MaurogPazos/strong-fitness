@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Incorporación de fuentes */
+@font-face {
+    font-family: "bonfire";
+    src: url(../../assets/fonts/Bonfire.ttf);
+}
+@font-face {
+    font-family: "iron";
+    src: url(../../assets/fonts/iron.ttf);
+}
+main{
+    background-image: url(../img/backNosotros.jpg);
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: auto;
+}
+.botonesMain {
+  text-decoration: none;
+  font-family: "iron";
+  padding: 12px 26px;
+  border: 0;
+  font-size: 26px;
+  transition: all 150ms ease-in-out;
+  border-radius: 14px;
+
+  color: #ecb94c;
+  background-color: rgb(0, 0, 0);
+  background-image: radial-gradient(50% 115% at 50% -5%, rgba(255, 255, 255, 0.11) 0%, transparent 100%);
+  box-shadow: inset 0 0px 10px 0px rgba(255, 255, 255, 0.14), inset 0px 5px 10px 0px rgba(255, 255, 255, 0.11), inset 0px 2px 5px 0px rgba(255, 255, 255, 0.4), inset 0px 3px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.botonesMain:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.botonesMain:active {
+  transform: scale(.95);
+}
+.contenedor-header{
+  display: flex;
+  justify-content: center;
+
+}
+.contenedor-parrafos{
+    background-color: black;   
+    opacity: 80%; 
+    width: 900px;
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-top: 20px;
+    height: auto;
+    padding: 35px;
+}
+#QUIENES_SOMOS{
+    margin-left: 10px;
+    color: aliceblue;
+    font-size: 31px;
+    font-family: "bonfire";
+}
+#MISION{
+    margin-left: 10px;
+    color: aliceblue;
+    font-size: 31px;
+    font-family: "bonfire";
+}
+#VISION{
+    margin-left: 10px;
+    color: aliceblue;
+    font-size: 31px;
+    font-family: "bonfire";
+}
+h4{
+    color: #ecb94c;
+    font-size: 35px;
+}
