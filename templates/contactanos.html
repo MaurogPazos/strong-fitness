@@ -4,32 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../static/img/logo_color.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
+    <link rel="stylesheet" href="../static/css/contactanos.css">
     <title>strong-fitness</title>
 </head>
 <body>
     <header>
-        <a class="botones_nav" href="../index.html">Inicio</a>
-        <a class="botones_nav" href="nosotros.html">¿Quienes somos?</a>
-        <a class="botones_nav" href="actividades.html">Actividades</a>
-        <a class="botones_nav" href="horarios.html">Horarios</a>
-        <a class="botones_nav" href="registrate.html">Registrate</a>
-    </header>
+        <nav>
+           <div class="navegadores" >
+           
+           <img src="../static/img/logo_color.png" alt="logo_header" id="logo_header">   
+           
+           <a class="botones_nav" href="../index.html">Inicio</a>
+           
+           <a class="botones_nav" href="../templates/actividades.html">Actividades</a>
+           
+           <a class="botones_nav" href="../templates/horarios.html">Horarios</a>
+           
+           <a class="botones_nav" href="../templates/registrate.html">Registrate</a>
+           
+           <a class="botones_nav" href="../templates/contactanos.html">Contactanos</a>
+      
+           </div> 
+       </nav>
+       </header>
     <main>
-        <div>
+        <div class="general">
+        <div class="cuadroComentario">
             <label for="comentario">Dejanos tu comentario: </label>
-            <textarea name="comentario" id="comentario" cols="30" rows="3" maxlength="200"></textarea>
+            <textarea name="comentario" id="comentario" cols="50" rows="10" maxlength="200"></textarea>
         </div>
-<hr>
-        <h4>Calchaquí 5799, Quilmes</h4>
-        <h4>Tel. (011) 5058-6911</h4>
-        <h4>efitnes@gmail.com</h4>
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13108.666369493765!2d-58.2701738!3d-34.7765812!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32fcd820911a5%3A0x7318095d470cb07a!2sUnaj!5e0!3m2!1ses-419!2sar!4v1710554561478!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="datos">
+            <h4>Av. La Plata 973, Banfield</h4>
+            <h4>Tel. (011) 5058-6911</h4>
+            <h4>nosotros@strong-fitness.com</h4>
+        </div>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.4787852737913!2d-58.39623028778506!3d-34.7435301727915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2a1c5c4d7a3%3A0xf07adeecd523b1f0!2sSport%20Fitness%20Life!5e0!3m2!1ses!2sar!4v1714955766675!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
         </div>
     </main>
+
+    <!-- El footer tiene incluido un archivo independiente de css -->
     <footer>
+    
+        <img src="../static/img/logo_blanco.png" alt="logo_pie" id="logo_pie">
+    
+        <div>    
+    
+        <h2>Seguinos</h2>
+        
+        <a href="https://www.facebook.com/?locale=es_LA" target="_blank" class="botones_redes"><img id="face" src="../static/img/facebook.png" alt="face" ></a>
+        
+        <a href="https://www.instagram.com/" target="_blank" class="botones_redes"> <img id="insta" src="../static/img/instagram.png " alt="insta"></a>
+        
+        <a href="https://www.youtube.com/" target="_blank" class="botones_redes"> <img id="yout" src="../static/img/youtube.png" alt="yout"></a>
+        
+        <a href="https://web.whatsapp.com/" target="_blank" class="botones_redes"> <img id="whats" src="../static/img/whatsapp.png" alt="whats"  ></a>
+        
+        <a href="#" id="botonDesarrolladores">Desarrolladores</a><span>&copy;</span>
 
+        </div>
     </footer>
+    <!-- Enlace desarrolladores -->
+    <script>
+        document.getElementById("botonDesarrolladores").addEventListener("click", function() {
 
+        alert("Mauro Pazos, Rosneli Morales Natera");
+    });
+    </script>
 </body>
 </html>
