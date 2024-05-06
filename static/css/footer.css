@@ -66,7 +66,7 @@ h2{
         opacity: 0.3;
     }
     footer{
-        height: 90px;
+        height: 95px;
         justify-content:center;  
     }
     h2{
@@ -85,3 +85,34 @@ h2{
         height: 20px;
     }
 }   
+@media screen and (min-width: 319px) and (max-width: 425px) {
+    #logo_pie{
+        margin-top: 20px;
+        height: 60px;
+        margin-left: 10px;
+        opacity: 0.3;
+    }
+    footer{
+        height: 95px;
+        justify-content:center;  
+    }
+    h2{
+        font-size: 15px;
+    }
+    #whats{
+        height: 15px;
+    }
+    #face{
+        height: 15px;
+    }
+    #insta{
+        height: 15px;
+    }
+    #yout{
+        height: 15px;
+    }
+    #botonDesarrolladores{
+        width: 30px;
+        /* height: auto; */
+    }
+}

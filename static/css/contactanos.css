@@ -20,6 +20,8 @@
 
 }
 main{
+    display: flex;
+    justify-content: center;
     background-image: url(../img/backContactanos.jpg);
     background-size: cover;
     height: 100vh;
@@ -42,11 +44,12 @@ main{
     justify-content: center;
 }
 .general{
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: grid;
-    margin-left: 700px;
     background-color: black;
     border-radius: 5%;
     width: 500px;
     padding: 5px;
-    height: 100vh;
+    height: auto;
 }
