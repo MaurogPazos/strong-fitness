@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="../static/css/footer.css">
     <link rel="stylesheet" href="../static/css/index.css">
     <link rel="stylesheet" href="../static/css/nosotros.css">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>strong-fitness</title>
 </head>
 <body>
@@ -30,7 +29,7 @@
     
     </header>
     <main>
-                <!-- MENU -->
+                <!-- Enlaces directo a parrafos distintos -->
                 <div class="contenedor-header">
                         <a class="botonesMain" href="#QUIENES_SOMOS" onclick="seleccionar()">QUIENES SOMOS</a>
                         <a class="botonesMain" href="#MISION" onclick="seleccionar()">MISION</a>
@@ -42,13 +41,13 @@
                         <p class="p-especial">Somos STRONG FITNES un gimnasio comprometido con el buen servicio y atencion a nuestros socios. Integrado por un equipo de<br>
                         instructores profesionales, tambien te brinda el ambiente mas agradable para que tu rutina de ejercicios se ajuste a tus necesidades.</p><br>
                 </section>
-                         <!-- MISION -->
+                         
                 <section class="MISION" id="MISION">
                         <h4>MISION</h4>
                         <p class="p-especial">Brindar al socio profesionalismo, eficiencia, calidad y excelencia en cada uno de los servicios que le brindamos.<br>
                         asi como contar con un personal certificado que garantice una experiencia completa de atencion personalizada al cliente.</p><br>
                 </section>                
-                        <!-- VISION -->
+                        
                 <section id="VISION" class="VISION">
                         <h4>VISION</h4>
                         <p class="p-especial">Ser una empresa lider en el mercado gracias a sus valores agregados y servicios a ofrecer, ya que la mayoria<br>
@@ -65,22 +64,21 @@
         <h2>Seguinos</h2>
         
         <a href="https://www.facebook.com/?locale=es_LA" target="_blank" class="botones_redes"><img id="face" src="../static/img/facebook.png" alt="face" ></a>
-        
         <a href="https://www.instagram.com/" target="_blank" class="botones_redes"> <img id="insta" src="../static/img/instagram.png " alt="insta"></a>
-        
         <a href="https://www.youtube.com/" target="_blank" class="botones_redes"> <img id="yout" src="../static/img/youtube.png" alt="yout"></a>
-        
         <a href="https://web.whatsapp.com/" target="_blank" class="botones_redes"> <img id="whats" src="../static/img/whatsapp.png" alt="whats"  ></a>
+        
         <a href="#" id="botonDesarrolladores">Desarrollado</a><span>&copy;</span>
     </div>
     </footer>
+    
     <script>
+
         document.getElementById("botonDesarrolladores").addEventListener("click", function() {
 
-        Swal.fire("Mauro Pazos - Rosneli Morales");
-            
-    });    
-    </script> 
+            alert("Mauro Pazos - Rosneli Morales");
+        });
+    </script>
 
 </body>
 </html>

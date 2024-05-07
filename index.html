@@ -6,11 +6,9 @@
     <link rel="shortcut icon" href="static/img/logo_color.ico" type="image/x-icon">
     <link rel="stylesheet" href="static/css/index.css">
     <link rel="stylesheet" href="static/css/footer.css">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>strong-fitness</title>
 </head>
 <body>    
-    <!-- Esta es una prueba para ver si sube la actualizaciones a GitHub -->
     <header>
      <nav>
         <div class="navegadores" >
@@ -18,13 +16,9 @@
         <img src="static/img/logo_color.png" alt="logo_header" id="logo_header">   
         
         <a class="botones_nav" href="templates/nosotros.html">¿Quienes somos?</a>
-        
         <a class="botones_nav" href="templates/actividades.html">Actividades</a>
-        
         <a class="botones_nav" href="templates/horarios.html">Horarios</a>
-        
         <a class="botones_nav" href="templates/registrate.html">Registrate</a>
-        
         <a class="botones_nav" href="templates/contactanos.html">Contactanos</a>
    
         </div> 
@@ -46,23 +40,21 @@
         <h2>Seguinos</h2>
         
         <a href="https://www.facebook.com/?locale=es_LA" target="_blank" class="botones_redes"><img id="face" src="static/img/facebook.png" alt="face" ></a>
-        
         <a href="https://www.instagram.com/" target="_blank" class="botones_redes"> <img id="insta" src="static/img/instagram.png " alt="insta"></a>
-        
         <a href="https://www.youtube.com/" target="_blank" class="botones_redes"> <img id="yout" src="static/img/youtube.png" alt="yout"></a>
-        
         <a href="https://web.whatsapp.com/" target="_blank" class="botones_redes"> <img id="whats" src="static/img/whatsapp.png" alt="whats"  ></a>
         
         <a href="#" id="botonDesarrolladores">Desarrollado</a><span>&copy;</span>
 
         </div>
     </footer>
-    <!-- Enlace desarrolladores -->
+    <!-- Alert con los participantes del equipo -->
     <script>
+
         document.getElementById("botonDesarrolladores").addEventListener("click", function() {
 
-        Swal.fire("Mauro Pazos - Rosneli Morales");    
-    });    
+            alert("Mauro Pazos - Rosneli Morales");
+        });
     </script>
 </body>
 </html>

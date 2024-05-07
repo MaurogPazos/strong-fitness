@@ -11,6 +11,7 @@
     font-family: "iron";
     src: url(../../assets/fonts/iron.ttf);
 }
+
 main{
     display: grid;
     background-image: url(../img/backNosotros.jpg);
@@ -19,6 +20,7 @@ main{
     width: auto;
     height: auto;
 }
+
 .botonesMain {
   text-decoration: none;
   font-family: "iron";
@@ -49,6 +51,7 @@ main{
   justify-content: center;
 
 }
+
 .contenedor-parrafos{
     background-color: black;   
     opacity: 80%; 
@@ -60,24 +63,28 @@ main{
     height: auto;
     padding: 35px;
 }
+
 #QUIENES_SOMOS{
     margin-left: 10px;
     color: aliceblue;
     font-size: 31px;
     font-family: "bonfire";
 }
+
 #MISION{
     margin-left: 10px;
     color: aliceblue;
     font-size: 31px;
     font-family: "bonfire";
 }
+
 #VISION{
     margin-left: 10px;
     color: aliceblue;
     font-size: 31px;
     font-family: "bonfire";
 }
+
 h4{
     color: #ecb94c;
     font-size: 35px;
