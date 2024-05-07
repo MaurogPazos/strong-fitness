@@ -12,8 +12,7 @@
     src: url(../../assets/fonts/Trushdex.ttf)
 }
 header{
-    /* display:flex; */
-    background-color: black;
+    background-color: rgb(44, 44, 44);
     background-size: cover;
     text-align: center;
     overflow: visible;
@@ -23,7 +22,6 @@ header{
     display:grid;
     grid-template-columns: repeat(6,20fr);
     grid-template-rows: 1,5px;
-    /* vertical-align: center; */
     justify-content: space-between 10px;
     margin-left: 20px;
     width: auto;
