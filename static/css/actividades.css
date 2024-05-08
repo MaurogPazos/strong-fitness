@@ -102,26 +102,39 @@ h3{
     transform: scale(1.1);
 }
 
-/* Responsive a Laptop 1440px */
-/* @media screen and (max-width: 1440px) {
+/* Responsive 1440px */
+@media screen and (max-width: 1440px) {
+    .navegadores{
+        display:grid;
+        grid-template-columns: repeat(3,20fr);
+        grid-template-rows: 2,20px;
+        overflow: visible;
+    }
     #logo_header{
 
         position: absolute;
         margin-top: 120px;
+        opacity: 40%;
+        margin-left: 1135px;
         width: 180px;
         height: 180px;
     }
-    .navegadores{
-        display:grid;
-        justify-content: end;
-        grid-template-columns: repeat(5,20fr);
-        grid-template-rows: 1,20px;
-        overflow: visible;
+    .botones_nav{
+    font-size: 18px;
+    height: 25px;    
     }
-    .box{
-        max-width: 150px;
+    .videoInicio{
+    display: none;
     }
-} */
+    #galeriaActividades{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        grid-template-rows: repeat(3,auto);
+        justify-content: center;
+        row-gap: 10px;
+        column-gap: 60px;
+    }
+}
 /* Responsivo a Laptop 1024px */
 @media screen and (max-width: 1024px) {
     .navegadores{

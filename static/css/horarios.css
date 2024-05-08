@@ -61,7 +61,7 @@ header{
       filter: brightness(1.3);
   }
 
-  main{
+main{
     background-image: url(../img/fondoHorarios.jpg);
     background-size: cover;
     background-position: center;
@@ -90,63 +90,135 @@ header{
 
 
 }
-
-.hora{
+.hora, .lunes, .martes, .miercoles, .jueves, .viernes{
     border: 5px outset rgb(231, 161, 31);
     font-family: bebas;
     color:rgba(240, 248, 255, 0.795);
     font-weight: 0px;
     border-radius: 2%;
-    background-color: #353434;
+    background-color: #353434;   
 }
 
-.lunes{
-    border: 5px outset rgb(231, 161, 31);
-    font-family: bebas;
-    color:rgba(240, 248, 255, 0.795);
-    font-weight: 0px;
-    border-radius: 2%;
-    background-color: #353434;
-}
+/* Responsive 1440px */
+@media screen and (max-width: 1440px){
 
-.martes{
-    border: 5px outset rgb(231, 161, 31);
-    font-family: bebas;
-    color:rgba(240, 248, 255, 0.795);
-    font-weight: 0px;
-    border-radius: 2%;
-    background-color: #353434;
+    .titulo{
+        margin-left: 550px;
+        font-size: 23px;
+    }
+    
 }
-
-.miercoles{
-    border: 5px outset rgb(231, 161, 31);
-    font-family: bebas;
-    color:rgba(240, 248, 255, 0.795);
-    font-weight: 0px;
-    border-radius: 2%;
-    background-color: #353434;
-}
-
-.jueves{
-    border: 5px outset rgb(231, 161, 31);
-    font-family: bebas;
-    color:rgba(240, 248, 255, 0.795);
-    font-weight: 0px;
-    border-radius: 2%;
-    background-color: #353434;
-}
-
-.viernes{
-    border: 5px outset rgb(231, 161, 31);
-    font-family: bebas;
-    color:rgba(240, 248, 255, 0.795);
-    font-weight: 0px;
-    border-radius: 2%;
-    background-color: #353434;
-}
-
-/* Responsive a 1024px */
+/* Responsive 1024px */
 @media screen and (max-width: 1024px){
     
-    
+    .hora, .lunes, .martes, .miercoles, .jueves, .viernes{
+        font-size: 30px;
+    }
+    .navegadores{
+        display:grid;
+        grid-template-columns: repeat(3,20fr);
+        grid-template-rows: 2,20px;
+        overflow: visible;
+    }
+    #logo_header{
+
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 735px;
+        width: 180px;
+        height: 180px;
+    }
+    .botones_nav{
+    font-size: 16px;
+    height: 25px;    
+    }
+    .titulo{
+        margin-top: 60px;
+        margin-left: 300px;
+        font-size: 22px;
+    }
+}
+/* Responsive 768px */
+@media screen and (max-width: 768px){
+    #logo_header{
+
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 550px;
+        width: 150px;
+        height: 150px;
+    }
+    .titulo{
+        font-size: 18px;
+        margin-left: 150px;
+    }
+}
+/* Responsive 425px */
+@media screen and (max-width: 425px){
+    .navegadores{
+        display:grid;
+        grid-template-columns: repeat(1,auto);
+        grid-template-rows: 2,20px;
+        overflow: visible;
+    }
+    #logo_header{
+
+        position: absolute;
+        margin-top: 420px;
+        margin-left: 135px;
+        width: 130px;
+        height: 130px;
+    }
+    .botones_nav{
+    font-size: 18px;
+    height: 25px;    
+    }
+    .hora, .lunes, .martes, .miercoles, .jueves, .viernes{
+        font-size: 15px;
+        border: 1px outset rgb(231, 161, 31);
+    }
+    .titulo{
+        margin-top: 420px;
+        margin-left: 90px;
+        font-size: 13px;
+    }
+    .contenedor{
+        margin-top: 10px;
+    }
+}
+/* Responsive 375px */
+@media screen and (max-width: 320px){
+    #logo_header{
+
+        position: absolute;
+        margin-left: 105px;
+        width: 100px;
+        height: 100px;
+    }
+    .contendeor{
+        margin-left: 25px;
+    }
+    .titulo{
+        margin-left: 80px;
+    }
+}
+/* Responsive 320px */
+@media screen and (max-width: 320px){
+    #logo_header{
+        position: absolute;
+        margin-left: 100px;
+        height: 100px;
+        width: 100px;
+    }
+    .contendeor{
+        margin-left: 25px;
+    }
+    .titulo{
+        font-size: 10px;
+        margin-left: 80px;
+    }
+    .hora, .lunes, .martes, .miercoles, .jueves, .viernes{
+        font-size: 13px;
+        border: 1px outset rgb(231, 161, 31);
+    }
 }
