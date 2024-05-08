@@ -103,6 +103,16 @@ input[type="file"]:hover {
 @media screen and (max-width: 1024px) {
     .formulario{
         margin-left: 220px;
-
+    }
+    h6, h5{
+        padding-top: 30px;
+        text-align: start;
+        margin-left: 15px;
+    }   
+    h6{
+        font-size: 35px;
+    }
+    h5{
+        font-size: 25px;
     }
 }
