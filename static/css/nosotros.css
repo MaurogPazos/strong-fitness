@@ -63,29 +63,76 @@ main{
     height: auto;
     padding: 35px;
 }
-
-#QUIENES_SOMOS{
+#QUIENES_SOMOS, #MISION, #VISION{
     margin-left: 10px;
     color: aliceblue;
     font-size: 31px;
     font-family: "bonfire";
 }
-
-#MISION{
-    margin-left: 10px;
-    color: aliceblue;
-    font-size: 31px;
-    font-family: "bonfire";
-}
-
-#VISION{
-    margin-left: 10px;
-    color: aliceblue;
-    font-size: 31px;
-    font-family: "bonfire";
-}
-
 h4{
     color: #ecb94c;
     font-size: 35px;
+}
+/* Responsive 1440px */
+@media screen and (max-width: 1440px) {
+    .contenedor-parrafos{
+        margin-left: 320px;
+    }
+    .botonesMain{
+        margin-left: 50px ;
+    }
+}
+/* Responsive a 1024px */
+@media screen and (max-width: 1024px) {
+    .botonesMain{
+        display: none;
+    }
+    .contenedor-parrafos{
+        margin-left: 10px;
+    }
+    #QUIENES_SOMOS, #MISION, #VISION{
+        font-size: 27px;
+    }
+    h4{
+        font-size: 30px;
+    }
+}
+/* Responsive a 768px */
+@media screen and (max-width: 768px) {
+
+    .contenedor-parrafos{
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #QUIENES_SOMOS, #MISION, #VISION{
+        font-size: 23px;
+    }
+    h4{
+        font-size: 35px;
+    }
+}
+/* Responsive a 425px */
+@media screen and (max-width: 425px) {
+    #QUIENES_SOMOS, #MISION, #VISION{
+        font-size: 19px;
+    }
+    h4{
+        font-size: 24px;
+    }
+    .contenedor-parrafos{
+        margin-top: 450px;
+    }
+}
+/* Responsive a 375px */
+@media screen and (max-width: 425px) {
+    .contenedor-parrafos{
+        margin-top: 400px;
+    }
+}
+/* Responsive a 320px */
+@media screen and (max-width: 320px) {
+    .contenedor-parrafos{
+        margin-top: 380px;
+    }
 }

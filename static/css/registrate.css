@@ -16,19 +16,6 @@
     src: url(../../assets/fonts/ZTGatha-SemiBold.ttf)
 }
 
-.div1{
-    display: grid;
-    grid-template-columns: 1, 20px;
-    grid-template-rows: 2, 20px;
-    row-gap: 3px;
-    justify-content: center;
-    font-family: "trush";
-    font-size: 30px;
-    color: bisque;
-    border: 2px;
-    border-color: black;
-}
-
 form{
     margin-top: 30px;
     font-family: "zeta";
@@ -40,24 +27,31 @@ main{
     background-image: url(../img/woman-holding-weights-near-barbells.jpg);
     background-size: cover;
     height: 100vh;
+    width: auto;
 }
 
 .formulario{
-    display: flexbox;
-    justify-content: center;
-    margin-left: 650px;
-    width: 600px;
+    display: inline-flex;
+    margin-left: 600px;
+    margin-top: 20px;
+    width: auto;
     background-color: antiquewhite;
     opacity: 70%;
     border-radius: 10%;
 }
-
+h6{
+    text-align: center;
+    font-size: 45px;
+    font-family: "trush";
+    color: bisque;
+}
 h5{
     text-align: center;
     font-size: 25px;
+    font-family: "trush";
+    color: bisque;
     
 }
-
 input[type="submit"] {
     padding: 10px;
     background-color: #ecb94c;
@@ -66,11 +60,9 @@ input[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
 }
-
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
-
 input[type="reset"] {
     padding: 10px;
     background-color: #ecb94c;
@@ -79,11 +71,9 @@ input[type="reset"] {
     border-radius: 5px;
     cursor: pointer;
 }
-
 input[type="reset"]:hover {
     background-color: #0056b3;
 }
-
 input[type="file"] {
     padding: 10px;
     background-color: #ecb94c;
@@ -92,31 +82,27 @@ input[type="file"] {
     border-radius: 5px;
     cursor: pointer;
 }
-
 input[type="file"]:hover {
     background-color: #0056b3;
 }
-/* Responsive a 1024px */
-/* @media screen and (max-width: 1024px) {
-    .navegadores{
-        display:grid;
-        grid-template-columns: repeat(3,20fr);
-        grid-template-rows: 2,20px;
-        overflow: visible;
+/* Responsive 1440px */
+@media screen and (max-width: 1440px) {
+    
+    form{
+        margin-top: 30px;
+        font-family: "zeta";
+        font-size: 18px;
+        padding: 40px;
     }
-    #logo_header{
+    .formulario{
+        margin-left: 400px;
 
-        position: absolute;
-        margin-top: 120px;
-        margin-left: 735px;
-        width: 180px;
-        height: 180px;
     }
-    .botones_nav{
-    font-size: 18px;
-    height: 25px;    
+}
+/* Responsive 1024px */
+@media screen and (max-width: 1024px) {
+    .formulario{
+        margin-left: 220px;
+
     }
-    .videoInicio{
-    display: none;
-    }
-} */
+}
