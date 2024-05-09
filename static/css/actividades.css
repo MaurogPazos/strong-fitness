@@ -47,12 +47,35 @@ h3{
     height: auto;
     margin-top: 2vh;
     margin-bottom: 2vh;
+    position: relative;
 }
-.box > img{
-    transition: transform 0.3s ease-in-out;
+.contenedor_imagen{
+    position: relative;
 }
-.box > img:hover{
-    transform: scale(1.1);
+.contenedor_imagen:hover .descripcion {
+    opacity: 1;
+}
+
+.box > h3 {
+    text-align: center;
+    margin: 10px 0;
+}
+.descripcion {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: rgb(241, 176, 91);
+    font-family: "bonfire";
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.box:hover .descripcion {
+    opacity: 1;
 }
 
 /* Responsive 1440px */
