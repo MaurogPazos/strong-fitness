@@ -116,3 +116,50 @@ input[type="file"]:hover {
         font-size: 25px;
     }
 }
+/* Responsive 768px */
+@media screen and (max-width: 768px) {
+    form{
+        margin-top: 30px;
+        font-family: "zeta";
+        font-size: 17px;
+        margin-right: 50px;
+        padding: 20px;
+    }
+    .formulario{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+/* Responsive 425px */
+@media screen and (max-width: 425px) {
+    form{
+        margin-top: 30px;
+        font-family: "zeta";
+        font-size: 12px;
+        margin-right: 50px;
+        padding: 20px;
+    }
+    #apto{
+        width: 210px;
+    }
+    .formulario{
+        margin-top: 450px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+        width: auto;
+    }
+    h5, h6{
+        display: none;
+    }
+    main{
+        height: auto;
+        width: auto;
+    }
+}
+/* Responsive 320px */
+@media screen and (max-width: 320px) {
+    #apto{
+        width: 125px;
+    }
+}
