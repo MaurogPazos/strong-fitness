@@ -7,6 +7,10 @@
     font-family: "bonfire";
     src: url(../../assets/fonts/Bonfire.ttf);
 }
+@font-face {
+    font-family: "crush";
+    src: url(../../assets/fonts/Crush.otf);
+}
 
 #logo_pie{
     margin-top: 20px;
@@ -32,9 +36,8 @@ span{
 h2{
     color: #ecb94c;
     font-family: "bonfire";
-    font-weight: 20px;
     font-size: 25px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 #face, #insta, #yout, #whats{
@@ -43,9 +46,11 @@ h2{
 }
 
 #botonDesarrolladores{
-    font-family: "bonfire";
-    font-size: 25px;
-    color: #fff0cf;
+    font-family: "crush";
+    font-size: 20px;
+    color: #ecb94c;
+    text-decoration: none;
+    opacity: 50%;
 }
 
 /* Responsive desde tablet a laptop */
@@ -81,7 +86,7 @@ h2{
     h2{
         font-size: 15px;
     }
-    #whats, #face, #instal, #yout{
+    #whats, #face, #insta, #yout{
         height: 15px;
     }
     #botonDesarrolladores{
