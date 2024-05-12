@@ -2,18 +2,21 @@
     margin:0;
     padding: 0;
 }
-main{
-    display: flex;
-    justify-content: center;
-    background-image: url(../img/mainAct.jpg);
-    background-size: cover;
-    height: auto;
-    width: auto;
-}
+/* Integración de fuentes al código */
 @font-face {
     font-family: "bonfire";
     src: url(../../assets/fonts/Bonfire.ttf);
 }
+
+main{
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/backActividades.jpg);
+    background-size: cover;
+    height: auto;
+    width: auto;
+}
+
 h3{
     font-size: 25px;
     margin-left: 5px;
@@ -24,6 +27,7 @@ h3{
     color: rgb(214, 163, 101);
     
 }
+
 #galeriaActividades{
     margin-top: 50px;
     display: grid;
@@ -33,12 +37,14 @@ h3{
     row-gap: 20px;
     column-gap: 80px;
 }
+
 .activ{
     max-width: 200px;
     width: 100%;
     display: block;
     height: auto;
 }
+
 .box{
     max-width: 200px;
     width: 100%;
@@ -49,9 +55,11 @@ h3{
     margin-bottom: 2vh;
     position: relative;
 }
+
 .contenedor_imagen{
     position: relative;
 }
+
 .contenedor_imagen:hover .descripcion {
     opacity: 1;
 }
@@ -60,6 +68,7 @@ h3{
     text-align: center;
     margin: 10px 0;
 }
+
 .descripcion {
     position: absolute;
     bottom: 0;
@@ -75,11 +84,12 @@ h3{
     opacity: 0;
     transition: opacity 0.3s ease;
 }
+
 .box:hover .descripcion {
     opacity: 1;
 }
 
-/* Responsive 1440px */
+/* Responsive a laptop 1440px */
 @media screen and (max-width: 1440px) {
    
     #galeriaActividades{
@@ -91,7 +101,7 @@ h3{
         column-gap: 60px;
     }
 }
-/* Responsive 1024px */
+/* Responsive a pantallas 1024px */
 @media screen and (max-width: 1024px) {
     #logo_header{
         opacity: 20%;
@@ -107,7 +117,7 @@ h3{
         column-gap: 60px;
     }
 }
-/* Responsive 768px */
+/* Responsive a tablet 768px */
 @media screen and (max-width: 768px){
     #logo_header{
         opacity: 20%;
@@ -123,6 +133,7 @@ h3{
         margin-top: 50px;
     }
 }
+
 /* Responsive 425px */
 @media screen and (max-width: 431px){
     #logo_header{

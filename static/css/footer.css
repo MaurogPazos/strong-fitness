@@ -2,20 +2,19 @@
     margin: 0;
     padding: 0;
 }
-@font-face {
-    font-family: "iron";
-    src: url(../../assets/fonts/iron.ttf);
-    }
+/* Integración de fuentes al código */
 @font-face {
     font-family: "bonfire";
     src: url(../../assets/fonts/Bonfire.ttf);
 }
+
 #logo_pie{
     margin-top: 20px;
     height: 80px;
     margin-left: 10px;
     opacity: 0.3;
 }
+
 footer{
     background-color: rgb(44, 44, 44);
     background-size: cover;
@@ -25,9 +24,11 @@ footer{
     justify-content:space-evenly;  
     grid-template-columns: repeat(2, 130px);
 }
+
 span{
     color: aliceblue;
 }
+
 h2{
     color: #ecb94c;
     font-family: "bonfire";
@@ -35,29 +36,19 @@ h2{
     font-size: 25px;
     margin-top: 10px;
 }
-#face{
+
+#face, #insta, #yout, #whats{
     background-color: bisque;
     opacity: 0.3;
 }
-#insta{
-    background-color: bisque;
-    opacity: 0.3;
-}
-#yout{
-    background-color: bisque;
-    opacity: 0.3;
-}
-#whats{
-    background-color: bisque;
-    opacity: 0.3;
-}
+
 #botonDesarrolladores{
     font-family: "bonfire";
     font-size: 25px;
-    /* text-decoration: none; */
     color: #fff0cf;
 }
-/* Responsivo desde Tablet a Laptop */
+
+/* Responsive desde tablet a laptop */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     #logo_pie{
         margin-top: 20px;
@@ -72,16 +63,7 @@ h2{
     h2{
         font-size: 15px;
     }
-    #whats{
-        height: 20px;
-    }
-    #face{
-        height: 20px;
-    }
-    #insta{
-        height: 20px;
-    }
-    #yout{
+    #whats, #face, #insta, #yout{
         height: 20px;
     }
 }   
@@ -99,20 +81,10 @@ h2{
     h2{
         font-size: 15px;
     }
-    #whats{
-        height: 15px;
-    }
-    #face{
-        height: 15px;
-    }
-    #insta{
-        height: 15px;
-    }
-    #yout{
+    #whats, #face, #instal, #yout{
         height: 15px;
     }
     #botonDesarrolladores{
         width: 30px;
-        /* height: auto; */
     }
 }

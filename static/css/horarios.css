@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* Integración de fuentes al código */
 @font-face {
     font-family: "bebas";
     src: url(../../assets/fonts/bebas.ttf);
@@ -13,7 +13,7 @@
 }
 
 main{
-    background-image: url(../img/fondoHorarios.jpg);
+    background-image: url(../img/backHorarios.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -37,20 +37,18 @@ main{
     font-size: 30px;
     color: #e6ab2b;
     padding: 10px;
-
-
-
 }
+
 .hora, .lunes, .martes, .miercoles, .jueves, .viernes{
     border: 5px outset rgb(231, 161, 31);
-    font-family: bebas;
+    font-family: "bebas";
     color:rgba(240, 248, 255, 0.795);
     font-weight: 0px;
     border-radius: 2%;
     background-color: #353434;   
 }
 
-/* Responsive 1440px */
+/* Responsive a laptop 1440px */
 @media screen and (max-width: 1440px){
 
     .titulo{
@@ -59,7 +57,7 @@ main{
     }
     
 }
-/* Responsive 1024px */
+/* Responsive a pantallas 1024px */
 @media screen and (max-width: 1024px){
     
     .hora, .lunes, .martes, .miercoles, .jueves, .viernes{
@@ -71,14 +69,14 @@ main{
         font-size: 22px;
     }
 }
-/* Responsive 768px */
+/* Responsive a tablet 768px */
 @media screen and (max-width: 768px){
     .titulo{
         font-size: 18px;
         margin-left: 150px;
     }
 }
-/* Responsive 425px */
+/* Responsive a celulares 425px */
 @media screen and (max-width: 431px){
     .hora, .lunes, .martes, .miercoles, .jueves, .viernes{
         font-size: 15px;

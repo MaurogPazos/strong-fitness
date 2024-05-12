@@ -2,14 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
+/* Integración de fuentes al archivo */
 @font-face {
     font-family: "iron";
     src: url(../../assets/fonts/iron.ttf);
-}
-@font-face {
-    font-family: "graf";
-    src: url(../../assets/fonts/Urban\ Heroes.ttf);
 }
 
 header{
@@ -61,7 +57,7 @@ header{
 }
 
 .principal{
-    background-image: url(../img/mainIndex.jpg);
+    background-image: url(../img/backIndex.jpg);
     background-size:cover;
     background-position: center;
     height: 100vh;
@@ -76,7 +72,7 @@ header{
     border-radius: 1%;
 }
 
-/* Responsive 1024px */
+/* Responsive a pantallas 1024px */
 @media screen and (max-width: 1024px) {
     .navegadores{
         display:grid;
@@ -100,13 +96,15 @@ header{
     display: none;
     }
 }
-/* Responsive 1440px */
+
+/* Responsive a laptop 1440px */
 @media screen and (max-width: 1440px) {
     .videoInicio{
         display: none;
         }
 }
-/* Responsive a Tablet 768px */
+
+/* Responsive a tablet 768px */
 @media screen and (max-width: 768px) {
     #logo_header{
 
@@ -118,7 +116,7 @@ header{
     }
 }
 
-/* Responsive 425px */
+/* Responsive a celulares 425px */
 @media screen and (max-width: 767px){
     .navegadores{
         display:grid;
@@ -142,8 +140,8 @@ header{
     display: none;
     }
 }
-/* Responsive 375px  */
 
+/* Responsive 375px  */
 @media screen and (max-width: 375px){
     #logo_header{
 
