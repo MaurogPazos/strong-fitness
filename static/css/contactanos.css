@@ -18,6 +18,9 @@
 .cuadroComentario{
     display: grid;
     justify-content: center;
+    font-family: "bebas";
+    color: #ecb94c;
+    font-size: 25px;
 
 }
 
@@ -57,4 +60,14 @@ main{
     width: 500px;
     padding: 5px;
     height: auto;
+}
+#comentario{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black
+}
+#enviarComentario{
+    font-family: "bebas";
+    font-size: 18px;
+    color: black;
+    background-color: #ecb94c;
 }
