@@ -112,6 +112,7 @@ input[type="file"]:hover {
 @media screen and (max-width: 1024px) {
     .formulario{
         margin-left: 220px;
+        margin-bottom: 50px;
     }
     h6, h5{
         padding-top: 30px;
@@ -123,6 +124,9 @@ input[type="file"]:hover {
     }
     h5{
         font-size: 25px;
+    }
+    main{
+        height: auto;
     }
 }
 /* Responsive a tablet 768px */
@@ -137,6 +141,7 @@ input[type="file"]:hover {
     .formulario{
         margin-left: 100px;
         margin-right: 100px;
+        margin-bottom: 50px;
     }
 }
 /* Responsive a celulares 425px */

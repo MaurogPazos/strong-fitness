@@ -114,7 +114,7 @@ h4{
     }
 }
 /* Responsive a celulares 425px */
-@media screen and (max-width: 431px) {
+@media screen and (min-width: 425px) and (max-width: 767px) {
     #QUIENES_SOMOS, #MISION, #VISION{
         font-size: 19px;
     }
